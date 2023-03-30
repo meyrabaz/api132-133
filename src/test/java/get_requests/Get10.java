@@ -50,11 +50,11 @@ public class Get10 extends HerOkuAppBaseUrl {
         expectedData.put("additionalneeds", "Extra pillows please");
         System.out.println("expectedData = " + expectedData);
 
-        //Send the request and get the response
+        //Send the request and get the response.
         Response response = given(spec).get("{first}/{second}");
         response.prettyPrint();
 
-        //Do Assertion
+        //Do Assertion Part
         Map<String, Object> actualData = response.as(HashMap.class);
         System.out.println("actualData = " + actualData);
 
@@ -66,6 +66,10 @@ public class Get10 extends HerOkuAppBaseUrl {
         assertEquals(((Map) expectedData.get("bookingdates")).get("checkin"), ((Map) actualData.get("bookingdates")).get("checkin"));
         assertEquals(((Map) expectedData.get("bookingdates")).get("checkout"), ((Map) actualData.get("bookingdates")).get("checkout"));
         assertEquals(expectedData.get("additionalneeds"), actualData.get("additionalneeds"));
+
+
+
+
 
     }
 }
