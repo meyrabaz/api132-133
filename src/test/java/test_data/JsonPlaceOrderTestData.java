@@ -4,7 +4,7 @@ package test_data;
 import java.util.HashMap;
 import java.util.Map;
 
-public class JsonPlaceHolderTestData {
+public class JsonPlaceOrderTestData {
 
     //This method will create a map for payload
     public Map<String, Object> expectedDataMapMethod(Integer userId, String title, Boolean completed) {
