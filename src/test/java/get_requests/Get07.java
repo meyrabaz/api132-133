@@ -1,7 +1,7 @@
+package get_requests;
 
 
-
-        import base_urls.PetStoreBaseUrl;
+import base_urls.PetStoreBaseUrl;
         import io.restassured.http.ContentType;
         import io.restassured.response.Response;
         import org.junit.Test;

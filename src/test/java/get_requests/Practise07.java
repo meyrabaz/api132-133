@@ -1,3 +1,5 @@
+package get_requests;
+
 import base_urls.RegresBaseUrl;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
