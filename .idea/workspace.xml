@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a9fb6a-f5c6-44e0-a040-3471422d7d26" name="Changes" comment="01.04.2023">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/JsonPlaceHolderPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post03.java" afterDir="false" />
+    <list default="true" id="43a9fb6a-f5c6-44e0-a040-3471422d7d26" name="Changes" comment="01.04.2023.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post01b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_data/PetStoreTestDataB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/post_requests/Post02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test_data/HerOkuAppTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_data/HerOkuAppTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base_urls/PetStoreBaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_urls/PetStoreBaseUrl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Post03">
+  <component name="RunManager" selected="JUnit.Post01b">
     <configuration name="Get06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api132-133" />
       <extension name="coverage">
@@ -80,33 +79,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Get10.get10b" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Post01b" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api132-133" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="get_requests.*" />
+          <option name="PATTERN" value="post_requests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="get_requests" />
-      <option name="MAIN_CLASS_NAME" value="get_requests.Get10" />
-      <option name="METHOD_NAME" value="get10b" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="post_requests" />
+      <option name="MAIN_CLASS_NAME" value="post_requests.Post01b" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Patch01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Post01b.post01b" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api132-133" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patch_requests.*" />
+          <option name="PATTERN" value="post_requests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="patch_requests" />
-      <option name="MAIN_CLASS_NAME" value="patch_requests.Patch01" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="post_requests" />
+      <option name="MAIN_CLASS_NAME" value="post_requests.Post01b" />
+      <option name="METHOD_NAME" value="post01b" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Post01b" />
+        <item itemvalue="JUnit.Post01b.post01b" />
         <item itemvalue="JUnit.Post03" />
         <item itemvalue="JUnit.Post02.post02" />
         <item itemvalue="JUnit.Get06" />
-        <item itemvalue="JUnit.Patch01" />
-        <item itemvalue="JUnit.Get10.get10b" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680358296553</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="01.04.2023.">
+      <created>1680363020604</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680363020604</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -212,6 +218,7 @@
     <MESSAGE value="03.2023" />
     <MESSAGE value="31.03.2023" />
     <MESSAGE value="01.04.2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="01.04.2023" />
+    <MESSAGE value="01.04.2023." />
+    <option name="LAST_COMMIT_MESSAGE" value="01.04.2023." />
   </component>
 </project>
