@@ -73,5 +73,7 @@ public class Post02 extends HerOkuAppBaseUrl {
         //Since the value data type is "Object" in actualData Map, all values will return as Object data type.
         // To use map methods from an object container, we need to do type casting
 
+
+
     }
 }
