@@ -1,38 +1,5 @@
 package post_requests;
 
-/* To create a POJO(Plain Old Java Object) Class do the followings
-       1)private variables
-       2)Constructor with all parameters
-       3)Constructor without parameter
-       4)Getters and Setters
-*/
-
-    /*
-     Given
-        https://jsonplaceholder.typicode.com/todos
-        {
-        "userId": 55,
-        "title": "Tidy your room",
-        "completed": false
-        }
-    When
-        I send POST Request to the Url
-    Then
-        Status code is 201
-    And
-        response body is like {
-                                "userId": 55,
-                                "title": "Tidy your room",
-                                "completed": false,
-                                "id": 201
-                                }
- */
-
-
-
-
-
-
 import base_urls.JsonPlaceHolderBaseUrl;
 import io.restassured.response.Response;
 import org.junit.Test;
@@ -76,14 +43,21 @@ public class Post03 extends JsonPlaceHolderBaseUrl {
         response.prettyPrint();
 
         //Do assertion
-
-
-        
+        JsonPlaceHolderPojo actualData = response.as(JsonPlaceHolderPojo.class);//De-Serialization
+        System.out.println("actualData = " + actualData);
 
 
     }
 
 }
+
+
+
+
+
+
+
+
 
 
 
