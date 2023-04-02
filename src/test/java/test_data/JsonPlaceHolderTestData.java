@@ -22,5 +22,17 @@ public class JsonPlaceHolderTestData {
         return expectedData;
     }
 
+    public Map<String,Object> expectedDataMapCreate (){
+
+
+
+    Map<String,Object> requestBodyMap= new HashMap<>();
+
+        requestBodyMap.put("title","Ahmet");
+        requestBodyMap.put("body","Merhaba");
+        requestBodyMap.put("userId",10);
+        requestBodyMap.put("id",70);
+        return requestBodyMap;
+}
 
 }
