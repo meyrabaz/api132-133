@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a9fb6a-f5c6-44e0-a040-3471422d7d26" name="Changes" comment="01.04.2023.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post01b.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_data/PetStoreTestDataB.java" afterDir="false" />
+    <list default="true" id="43a9fb6a-f5c6-44e0-a040-3471422d7d26" name="Changes" comment="03.04.2023....">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/PetStorePojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/Practice08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/Practice09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/Practice10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base_urls/PetStoreBaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_urls/PetStoreBaseUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test_data/PetStoreTestDataB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_data/PetStoreTestData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,79 +65,79 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Post01b">
-    <configuration name="Get06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Practice08.practice08">
+    <configuration name="Practice08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api132-133" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="get_requests.*" />
+          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="get_requests" />
-      <option name="MAIN_CLASS_NAME" value="get_requests.Get06" />
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.Practice08" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Post01b" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice08.practice08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api132-133" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="post_requests.*" />
+          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="post_requests" />
-      <option name="MAIN_CLASS_NAME" value="post_requests.Post01b" />
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.Practice08" />
+      <option name="METHOD_NAME" value="practice08" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice08.practice08P" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api132-133" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.Practice08" />
+      <option name="METHOD_NAME" value="practice08P" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice09" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api132-133" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.Practice09" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Post01b.post01b" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api132-133" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="post_requests.*" />
+          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="post_requests" />
-      <option name="MAIN_CLASS_NAME" value="post_requests.Post01b" />
-      <option name="METHOD_NAME" value="post01b" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Post02.post02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api132-133" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="post_requests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="post_requests" />
-      <option name="MAIN_CLASS_NAME" value="post_requests.Post02" />
-      <option name="METHOD_NAME" value="post02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Post03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api132-133" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="post_requests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="post_requests" />
-      <option name="MAIN_CLASS_NAME" value="post_requests.Post03" />
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.Practice10" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Post01b" />
-        <item itemvalue="JUnit.Post01b.post01b" />
-        <item itemvalue="JUnit.Post03" />
-        <item itemvalue="JUnit.Post02.post02" />
-        <item itemvalue="JUnit.Get06" />
+        <item itemvalue="JUnit.Practice08.practice08" />
+        <item itemvalue="JUnit.Practice08" />
+        <item itemvalue="JUnit.Practice08.practice08P" />
+        <item itemvalue="JUnit.Practice10" />
+        <item itemvalue="JUnit.Practice09" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +211,56 @@
       <option name="project" value="LOCAL" />
       <updated>1680363020604</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="01.04.2023..">
+      <created>1680375368457</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680375368457</updated>
+    </task>
+    <task id="LOCAL-00009" summary="02.04.2023..">
+      <created>1680438396441</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680438396441</updated>
+    </task>
+    <task id="LOCAL-00010" summary="02.04.2023..">
+      <created>1680438459241</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680438459241</updated>
+    </task>
+    <task id="LOCAL-00011" summary="02.04.2023...">
+      <created>1680449359073</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680449359073</updated>
+    </task>
+    <task id="LOCAL-00012" summary="02.04.2023...">
+      <created>1680449518122</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680449518122</updated>
+    </task>
+    <task id="LOCAL-00013" summary="03.04.2023...">
+      <created>1680530101463</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680530101463</updated>
+    </task>
+    <task id="LOCAL-00014" summary="03.04.2023....">
+      <created>1680548066513</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680548066513</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -219,6 +270,11 @@
     <MESSAGE value="31.03.2023" />
     <MESSAGE value="01.04.2023" />
     <MESSAGE value="01.04.2023." />
-    <option name="LAST_COMMIT_MESSAGE" value="01.04.2023." />
+    <MESSAGE value="01.04.2023.." />
+    <MESSAGE value="02.04.2023.." />
+    <MESSAGE value="02.04.2023..." />
+    <MESSAGE value="03.04.2023..." />
+    <MESSAGE value="03.04.2023...." />
+    <option name="LAST_COMMIT_MESSAGE" value="03.04.2023...." />
   </component>
 </project>
