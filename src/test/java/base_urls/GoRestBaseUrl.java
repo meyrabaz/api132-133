@@ -4,15 +4,14 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;
 import org.junit.Before;
 
-public class PetStoreBaseUrl {
+public class GoRestBaseUrl {
 
     protected RequestSpecification spec;
 
     @Before
     public void setUp() {
 
-        spec = new RequestSpecBuilder().setBaseUri("https://petstore.swagger.io/").build();
+        spec = new RequestSpecBuilder().setBaseUri("https://gorest.co.in/public/v1/").build();
 
     }
 }
-
