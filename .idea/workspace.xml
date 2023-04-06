@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a9fb6a-f5c6-44e0-a040-3471422d7d26" name="Changes" comment="04.04.2023">
+    <list default="true" id="43a9fb6a-f5c6-44e0-a040-3471422d7d26" name="Changes" comment="05.04.2023">
       <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/GoRestBaseUrl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get12.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingResponsePojo.java" afterDir="false" />
@@ -67,7 +67,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Get12.get12">
+  <component name="RunManager" selected="JUnit.Post01b.post01b">
     <configuration name="Get12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api132-133" />
       <extension name="coverage">
@@ -99,6 +99,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Post01b.post01b" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api132-133" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="post_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="post_requests" />
+      <option name="MAIN_CLASS_NAME" value="post_requests.Post01b" />
+      <option name="METHOD_NAME" value="post01b" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Post04.post04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api132-133" />
       <extension name="coverage">
@@ -111,21 +127,6 @@
       <option name="MAIN_CLASS_NAME" value="post_requests.Post04" />
       <option name="METHOD_NAME" value="post04" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api132-133" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.Practice08" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Post01b.post01b" />
         <item itemvalue="JUnit.Get12.get12" />
         <item itemvalue="JUnit.Get12" />
         <item itemvalue="JUnit.Post04.post04" />
         <item itemvalue="JUnit.Practice08.practice08" />
-        <item itemvalue="JUnit.Practice08" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680642979766</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="05.04.2023">
+      <created>1680708328876</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680708328876</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -286,6 +294,7 @@
     <MESSAGE value="03.04.2023..." />
     <MESSAGE value="03.04.2023...." />
     <MESSAGE value="04.04.2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="04.04.2023" />
+    <MESSAGE value="05.04.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="05.04.2023" />
   </component>
 </project>

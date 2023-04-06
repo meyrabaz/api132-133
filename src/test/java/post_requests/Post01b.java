@@ -43,6 +43,7 @@ public class Post01b extends PetStoreBaseUrl {
         spec.pathParam("first", "user");
 
         Map<String, Object> expectedData = new HashMap<>();//You can create payload by using pojo class as well.
+
         expectedData.put("username", "JohnDoe");
         expectedData.put("firstName", "John");
         expectedData.put("lastName", "Doe");
@@ -60,6 +61,8 @@ public class Post01b extends PetStoreBaseUrl {
         assertEquals(200, response.statusCode());
         assertEquals(200, actualData.get("code"));
         assertEquals("unknown", actualData.get("type"));
+
+
     }
 
 }
