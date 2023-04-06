@@ -54,10 +54,8 @@ public class Post05ObjectMapper_Map extends JsonPlaceHolderBaseUrl {
 
       Response response = given(spec).body("{ \"userId\": 55,\"title\": \"Tidy your room\",\"completed\": false }").post("{first}");
       response.prettyPrint();
-      // Not the recommended way. We will do comman way object mapper.
-
-
-    //Do assertion
+      // Not the recommended way. We will do common way object mapper.
+      //Do assertion
 
     Map<String,Object> actualData = new ObjectMapper().readValue(response.asString(), HashMap.class);
     System.out.println("actualData = " + actualData);
