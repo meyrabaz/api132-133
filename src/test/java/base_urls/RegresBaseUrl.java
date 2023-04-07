@@ -12,6 +12,6 @@ public class RegresBaseUrl {
 
     @Before
     public void setup (){
-        spec = new RequestSpecBuilder().setBaseUri("https://reqres.in").setContentType(ContentType.JSON).build();
+        spec = new RequestSpecBuilder().setContentType(ContentType.JSON).setBaseUri("https://reqres.in.api").setContentType(ContentType.JSON).build();
     }
 }
