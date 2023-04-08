@@ -1,7 +1,6 @@
 package pojos;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class BookingResponsePojo {
     private Integer bookingid;
