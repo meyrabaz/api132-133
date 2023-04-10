@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a9fb6a-f5c6-44e0-a040-3471422d7d26" name="Changes" comment="06.04.2023...">
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/Practice01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/Practice02.java" afterDir="false" />
+    <list default="true" id="43a9fb6a-f5c6-44e0-a040-3471422d7d26" name="Changes" comment="07.04.2023">
       <change afterPath="$PROJECT_DIR$/src/test/java/practice/Practice03.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/practice/Practice04.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/practice/Practice05.java" afterDir="false" />
@@ -14,8 +12,8 @@
       <change afterPath="$PROJECT_DIR$/src/test/java/practice/Practice07.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/practice/Practise11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base_urls/RegresBaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_urls/RegresBaseUrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/BookingPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/BookingDatesPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingDatesPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/BookingResponsePojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingResponsePojo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/Practice08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/Practice08.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,39 +69,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practise11.practice11">
-    <configuration name="Practice05.get05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api132-133" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.Practice05" />
-      <option name="METHOD_NAME" value="get05" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice06.get06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api132-133" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.Practice06" />
-      <option name="METHOD_NAME" value="get06" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Practise11.practiceput11">
     <configuration name="Practice07.post01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api132-133" />
       <extension name="coverage">
@@ -136,6 +102,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practise11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api132-133" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.Practise11" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Practise11.practice11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api132-133" />
       <extension name="coverage">
@@ -152,13 +133,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practise11.practiceput11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api132-133" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.Practise11" />
+      <option name="METHOD_NAME" value="practiceput11" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practise11.practiceput11" />
+        <item itemvalue="JUnit.Practise11" />
         <item itemvalue="JUnit.Practise11.practice11" />
         <item itemvalue="JUnit.Practice08.practice08" />
         <item itemvalue="JUnit.Practice07.post01" />
-        <item itemvalue="JUnit.Practice06.get06" />
-        <item itemvalue="JUnit.Practice05.get05" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680795162667</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="07.04.2023">
+      <created>1680867342400</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1680867342400</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -324,6 +328,7 @@
     <MESSAGE value="06.04.2023" />
     <MESSAGE value="06.04.2023.." />
     <MESSAGE value="06.04.2023..." />
-    <option name="LAST_COMMIT_MESSAGE" value="06.04.2023..." />
+    <MESSAGE value="07.04.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="07.04.2023" />
   </component>
 </project>
