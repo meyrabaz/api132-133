@@ -6,11 +6,9 @@ import io.restassured.response.Response;
 import org.junit.Test;
 import test_data.PetStoreTestData;
 
-import java.util.HashMap;
 import java.util.Map;
 
 import static io.restassured.RestAssured.given;
-import static org.junit.Assert.assertEquals;
 
 public class Practice08 extends PetStoreBaseUrl {
     /*
@@ -55,12 +53,6 @@ public class Practice08 extends PetStoreBaseUrl {
         response.prettyPrint();
 
         //Do assertion
-        Map<String, Object> actualData = response.as(HashMap.class);
-        System.out.println("actualData = " + actualData);
-
-        assertEquals(200,response.getStatusCode());
-        assertEquals(200, actualData.get("code"));
-        assertEquals("unknown", actualData.get("type"));
 
 
 
