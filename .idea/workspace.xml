@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a9fb6a-f5c6-44e0-a040-3471422d7d26" name="Changes" comment="10.04.2023..">
-      <change afterPath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/S1_Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/S2_Put.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/Practise11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="43a9fb6a-f5c6-44e0-a040-3471422d7d26" name="Changes" comment="11.04.2023..">
+      <change beforePath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/S1_Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/S1_Post.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,22 +60,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.S2_Put.putTest">
-    <configuration name="Practise11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api132-133" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.Practise11" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.S1_Post.postTest">
     <configuration name="Practise11.postTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api132-133" />
       <extension name="coverage">
@@ -126,6 +108,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="S1_Post.postTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api132-133" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="herokuapp_smoketest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="herokuapp_smoketest" />
+      <option name="MAIN_CLASS_NAME" value="herokuapp_smoketest.S1_Post" />
+      <option name="METHOD_NAME" value="postTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="S2_Put.putTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api132-133" />
       <extension name="coverage">
@@ -144,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.S1_Post.postTest" />
         <item itemvalue="JUnit.S2_Put.putTest" />
         <item itemvalue="JUnit.Practise11.postTest" />
         <item itemvalue="JUnit.S1_Post" />
         <item itemvalue="JUnit.Practise11.practiceput11" />
-        <item itemvalue="JUnit.Practise11" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +327,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681155249116</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="11.04.2023">
+      <created>1681234003902</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1681234003902</updated>
+    </task>
+    <task id="LOCAL-00026" summary="11.04.2023.">
+      <created>1681234019011</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1681234019011</updated>
+    </task>
+    <task id="LOCAL-00027" summary="11.04.2023..">
+      <created>1681235323852</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1681235323852</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -354,6 +373,9 @@
     <MESSAGE value="10.04.2023" />
     <MESSAGE value="10.04.2023." />
     <MESSAGE value="10.04.2023.." />
-    <option name="LAST_COMMIT_MESSAGE" value="10.04.2023.." />
+    <MESSAGE value="11.04.2023" />
+    <MESSAGE value="11.04.2023." />
+    <MESSAGE value="11.04.2023.." />
+    <option name="LAST_COMMIT_MESSAGE" value="11.04.2023.." />
   </component>
 </project>

@@ -61,12 +61,12 @@ public class S1_Post extends HerOkuAppBaseUrl {
 
         //Send the request and get the response
         Response response = given(spec).body(expectedData).post("{first}");
-        response.prettyPrint();
+
 
         //Do assertion
         BookingResponsePojo actualData = ObjectMapperUtils.convertJsonToJavaObject(response.asString(), BookingResponsePojo.class);
         //With convertJsonToJavaObject() method we handled throw exception issue
-        System.out.println("actualData = " + actualData);
+
 
         assertEquals(200, response.statusCode());
 
