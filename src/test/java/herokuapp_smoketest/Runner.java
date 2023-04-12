@@ -7,7 +7,11 @@ import org.junit.runners.Suite;
 @Suite.SuiteClasses({
 
         S1_Post.class,
-        S2_Put.class
+        S2_Put.class,
+        S3_Get.class,
+        S4_Patch.class,
+        S5_Delete.class,
+        S6_Get_Negative.class
 })
 
 public class Runner {
