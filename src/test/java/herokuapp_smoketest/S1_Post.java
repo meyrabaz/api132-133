@@ -49,6 +49,8 @@ public class S1_Post extends HerOkuAppBaseUrl {
         }
      */
 
+    public static int bookingId;//We put the created bookingId into a container and use it in other classes.
+
     @Test
     public void postTest() {
         //Set the url
@@ -61,12 +63,12 @@ public class S1_Post extends HerOkuAppBaseUrl {
 
         //Send the request and get the response
         Response response = given(spec).body(expectedData).post("{first}");
-
+        response.prettyPrint();
 
         //Do assertion
         BookingResponsePojo actualData = ObjectMapperUtils.convertJsonToJavaObject(response.asString(), BookingResponsePojo.class);
         //With convertJsonToJavaObject() method we handled throw exception issue
-
+        System.out.println("actualData = " + actualData);
 
         assertEquals(200, response.statusCode());
 
@@ -77,6 +79,8 @@ public class S1_Post extends HerOkuAppBaseUrl {
         assertEquals(bookingDatesPojo.getCheckin(), actualData.getBooking().getBookingdates().getCheckin());
         assertEquals(bookingDatesPojo.getCheckout(), actualData.getBooking().getBookingdates().getCheckout());
         assertEquals(expectedData.getAdditionalneeds(), actualData.getBooking().getAdditionalneeds());
+
+        bookingId = actualData.getBookingid();
 
     }
 }

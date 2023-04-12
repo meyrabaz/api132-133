@@ -11,26 +11,14 @@ import static herokuapp_smoketest.S1_Post.bookingId;
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
-public class S2_Put extends HerOkuAppBaseUrl {
+public class S3_Get extends HerOkuAppBaseUrl {
     /*
     Given
         https://restful-booker.herokuapp.com/booking/{id}
-    And
-        {
-            "firstname" : "Mark",
-            "lastname" : "Twain",
-            "totalprice" : 555,
-            "depositpaid" : false,
-            "bookingdates" : {
-                "checkin" : "2023-01-01",
-                "checkout" : "2024-01-01"
-            },
-            "additionalneeds" : "Extra Pillow"
-        }
     When
-        Send put request
+        Send get request
     Then
-        Staus code shour be 200
+        Status code should be 200
     And
         Body should be :
            {
@@ -43,29 +31,29 @@ public class S2_Put extends HerOkuAppBaseUrl {
                 "checkout": "2024-01-01"
             },
             "additionalneeds": "Extra Pillow"
-        }
-
+          }
      */
 
     @Test
-    public void putTest(){
+    public void getTest() {
         //Set the url
-        spec.pathParams("first","booking","second",bookingId);
+        spec.pathParams("first", "booking", "second", bookingId);
 
         //Set the expected data
+
         BookingDatesPojo bookingDatesPojo = new BookingDatesPojo("2023-01-01","2024-01-01");
         BookingPojo expectedData = new BookingPojo("Mark","Twain",555,false,bookingDatesPojo,"Extra Pillow");
-        System.out.println("expectedData = " + expectedData);
 
-        //Send the request and get the response
-        Response response = given(spec).body(expectedData).put("{first}/{second}");
+         System.out.println("expectedData = " + expectedData);
 
-        response.prettyPrint();
+        Response response = given(spec).get("{first}/{second}");
+         // response.prettyPrint();
 
-        //Do assertion
-        BookingPojo actualData = ObjectMapperUtils.convertJsonToJavaObject(response.asString(),BookingPojo.class);
+        // Do Assertion
+
+       BookingPojo actualData = ObjectMapperUtils.convertJsonToJavaObject(response.asString(),BookingPojo.class);
+
         System.out.println("actualData = " + actualData);
-
         assertEquals(200, response.statusCode());
 
         assertEquals(expectedData.getFirstname(), actualData.getFirstname());
@@ -76,5 +64,16 @@ public class S2_Put extends HerOkuAppBaseUrl {
         assertEquals(bookingDatesPojo.getCheckout(), actualData.getBookingdates().getCheckout());
         assertEquals(expectedData.getAdditionalneeds(), actualData.getAdditionalneeds());
 
+
+
     }
 }
+
+
+
+
+
+
+
+
+
