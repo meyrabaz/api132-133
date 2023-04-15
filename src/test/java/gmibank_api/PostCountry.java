@@ -77,34 +77,30 @@ public class PostCountry extends GmiBankBaseUrl {
 
          spec.pathParams("first","api","second","tp-countries");
 
-
-         // Set the expected data
-
       // in states pojo we made we got ignore properties and remove "tpcountries" variable bcs there is an error 400 (bad request,it is null )
 
-       // Set the expected data
+       // Set the expected data.
 
-         States state1 = new States(0, "My State");
-         States state2 = new States(1, "Your State");
-         States state3 = new States(2, "Her State");
+         States state1 =  new States(0, "My State");
+         States state2 =  new States(1, "Your State");
+         States state3 =  new States(2, "Her State");
 
          List<States> statesList = new ArrayList<>();
          statesList.add(state1);
          statesList.add(state2);
          statesList.add(state3);
 
-
          Country expectedData = new Country("Mey Country",statesList);
 
          System.out.println("expectedData = " + expectedData);
 
-         // Send the request and get the response
+         // Send the request and get the response.
 
        Response response = given(spec).body(expectedData).post("{first}/{second}");
 
        response.prettyPrint();
 
-        // Do assertion
+        // Do assertion part.
          Country actualData = ObjectMapperUtils.convertJsonToJavaObject(response.asString(),Country.class);
          System.out.println("actualData = " + actualData);
          assertEquals(201,response.statusCode());

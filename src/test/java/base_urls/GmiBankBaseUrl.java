@@ -11,7 +11,7 @@ public class GmiBankBaseUrl {
 
     protected RequestSpecification spec;
 
-    @Before//This method will run before each @Test methods.
+    @Before//This method will run before each @Test methods...
     public void setUp() {
 
         spec = new RequestSpecBuilder().
