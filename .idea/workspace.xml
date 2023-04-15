@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a9fb6a-f5c6-44e0-a040-3471422d7d26" name="Changes" comment="11.04.2023..">
-      <change beforePath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/S1_Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/S1_Post.java" afterDir="false" />
+    <list default="true" id="43a9fb6a-f5c6-44e0-a040-3471422d7d26" name="Changes" comment="15.04.2023.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/Practise12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/States.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/States.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,81 +62,78 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.S1_Post.postTest">
-    <configuration name="Practise11.postTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PostCountry">
+    <configuration name="AuthenticationGmiBank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.AuthenticationGmiBank" />
       <module name="api132-133" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.*" />
+          <option name="PATTERN" value="utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.Practise11" />
-      <option name="METHOD_NAME" value="postTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetCustomer.getCustomerById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api132-133" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gmibank_api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gmibank_api" />
+      <option name="MAIN_CLASS_NAME" value="gmibank_api.GetCustomer" />
+      <option name="METHOD_NAME" value="getCustomerById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practise11.practiceput11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostCountry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api132-133" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.*" />
+          <option name="PATTERN" value="gmibank_api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.Practise11" />
-      <option name="METHOD_NAME" value="practiceput11" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="S1_Post" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api132-133" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="herokuapp_smoketest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="herokuapp_smoketest" />
-      <option name="MAIN_CLASS_NAME" value="herokuapp_smoketest.S1_Post" />
+      <option name="PACKAGE_NAME" value="gmibank_api" />
+      <option name="MAIN_CLASS_NAME" value="gmibank_api.PostCountry" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S1_Post.postTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostCountry.postCountry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api132-133" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="herokuapp_smoketest.*" />
+          <option name="PATTERN" value="gmibank_api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="herokuapp_smoketest" />
-      <option name="MAIN_CLASS_NAME" value="herokuapp_smoketest.S1_Post" />
-      <option name="METHOD_NAME" value="postTest" />
+      <option name="PACKAGE_NAME" value="gmibank_api" />
+      <option name="MAIN_CLASS_NAME" value="gmibank_api.PostCountry" />
+      <option name="METHOD_NAME" value="postCountry" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S2_Put.putTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practise12.practise_12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api132-133" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="herokuapp_smoketest.*" />
+          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="herokuapp_smoketest" />
-      <option name="MAIN_CLASS_NAME" value="herokuapp_smoketest.S2_Put" />
-      <option name="METHOD_NAME" value="putTest" />
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.Practise12" />
+      <option name="METHOD_NAME" value="practise_12" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.S1_Post.postTest" />
-        <item itemvalue="JUnit.S2_Put.putTest" />
-        <item itemvalue="JUnit.Practise11.postTest" />
-        <item itemvalue="JUnit.S1_Post" />
-        <item itemvalue="JUnit.Practise11.practiceput11" />
+        <item itemvalue="JUnit.PostCountry" />
+        <item itemvalue="JUnit.PostCountry.postCountry" />
+        <item itemvalue="JUnit.GetCustomer.getCustomerById" />
+        <item itemvalue="JUnit.Practise12.practise_12" />
+        <item itemvalue="Application.AuthenticationGmiBank" />
       </list>
     </recent_temporary>
   </component>
@@ -348,21 +347,94 @@
       <option name="project" value="LOCAL" />
       <updated>1681235323852</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="12.04.2023">
+      <created>1681304196810</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1681304196810</updated>
+    </task>
+    <task id="LOCAL-00029" summary="12.04.2023.">
+      <created>1681307384316</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1681307384316</updated>
+    </task>
+    <task id="LOCAL-00030" summary="12.04.2023..">
+      <created>1681307558972</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1681307558972</updated>
+    </task>
+    <task id="LOCAL-00031" summary="12.04.2023...">
+      <created>1681312881643</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1681312881643</updated>
+    </task>
+    <task id="LOCAL-00032" summary="12.04.2023....">
+      <created>1681312890225</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1681312890225</updated>
+    </task>
+    <task id="LOCAL-00033" summary="13.04.2023">
+      <created>1681395452350</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1681395452350</updated>
+    </task>
+    <task id="LOCAL-00034" summary="13.04.2023.">
+      <created>1681399291022</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1681399291022</updated>
+    </task>
+    <task id="LOCAL-00035" summary="14.04.2023">
+      <created>1681421604852</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1681421604852</updated>
+    </task>
+    <task id="LOCAL-00036" summary="14.04.2023.">
+      <created>1681423131221</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1681423131221</updated>
+    </task>
+    <task id="LOCAL-00037" summary="14.04.2023..">
+      <created>1681475083579</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1681475083579</updated>
+    </task>
+    <task id="LOCAL-00038" summary="15.04.2023">
+      <created>1681571351409</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1681571351409</updated>
+    </task>
+    <task id="LOCAL-00039" summary="15.04.2023.">
+      <created>1681572088657</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1681572088657</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="29.03.2023" />
-    <MESSAGE value="30.03.2023" />
-    <MESSAGE value="03.2023" />
-    <MESSAGE value="31.03.2023" />
-    <MESSAGE value="01.04.2023" />
-    <MESSAGE value="01.04.2023." />
-    <MESSAGE value="01.04.2023.." />
-    <MESSAGE value="02.04.2023.." />
-    <MESSAGE value="02.04.2023..." />
-    <MESSAGE value="03.04.2023..." />
-    <MESSAGE value="03.04.2023...." />
     <MESSAGE value="04.04.2023" />
     <MESSAGE value="05.04.2023" />
     <MESSAGE value="06.04.2023" />
@@ -376,6 +448,21 @@
     <MESSAGE value="11.04.2023" />
     <MESSAGE value="11.04.2023." />
     <MESSAGE value="11.04.2023.." />
-    <option name="LAST_COMMIT_MESSAGE" value="11.04.2023.." />
+    <MESSAGE value="12.04.2023" />
+    <MESSAGE value="12.04.2023." />
+    <MESSAGE value="12.04.2023.." />
+    <MESSAGE value="12.04.2023..." />
+    <MESSAGE value="12.04.2023...." />
+    <MESSAGE value="13.04.2023" />
+    <MESSAGE value="13.04.2023." />
+    <MESSAGE value="14.04.2023" />
+    <MESSAGE value="14.04.2023." />
+    <MESSAGE value="14.04.2023.." />
+    <MESSAGE value="15.04.2023" />
+    <MESSAGE value="15.04.2023." />
+    <option name="LAST_COMMIT_MESSAGE" value="15.04.2023." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/api132_133$herokuapp_smoketest_in_api132_133.ic" NAME="herokuapp_smoketest in api132-133 Coverage Results" MODIFIED="1681305450157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
