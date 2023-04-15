@@ -106,6 +106,9 @@ public class Practise12 extends  GmiBankBaseUrl {
             assertEquals(201,response.statusCode());
             assertEquals(expectedData.getName(), actualData.getName());
 
+
+
+
         }
 
 

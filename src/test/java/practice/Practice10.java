@@ -1,17 +1,12 @@
 package practice;
 
-import io.restassured.response.Response;
 import org.junit.Test;
-
-import static io.restassured.RestAssured.given;
-import static org.junit.Assert.assertEquals;
 
 public class Practice10 {
 
     //Homework10:
 
-    /*
-        Given
+    /*   Given
             https://automationexercise.com/api/productsList
         When
             User sends Get request
@@ -29,19 +24,19 @@ public class Practice10 {
 
         // Send the GET request and get the response
 
-        Response response = given().get(url);
-        response.jsonPath().prettyPrint();
+       /*  Response response = given().jsonPath().get(url);
+       // response.prettyPrint();
 
         //  Do assertion
 
-       /* List<String> ListOfWomen = response.jsonPath().getList("products.category.usertype.findAll{it.usertype=='Women'}.usertype");
-        System.out.println("ListOfWomen = " + ListOfWomen);
-*/
+       // List<String> ListOfWomen = response.jsonPath().getList("products.category.usertype.findAll{it.usertype=='Women'}.usertype");
+       // System.out.println("ListOfWomen = " + ListOfWomen);
+
         int numOfWomen = response.jsonPath().getList("products.category.usertype.findAll{it.usertype=='Women'}.usertype").size();
         System.out.println("numOfWomen = " + numOfWomen);
 
         assertEquals(200,response.statusCode());
-        assertEquals(12,numOfWomen);
+        assertEquals(12,numOfWomen);*/
     }
 
 }

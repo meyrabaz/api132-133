@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a9fb6a-f5c6-44e0-a040-3471422d7d26" name="Changes" comment="15.04.2023.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/Practise12.java" afterDir="false" />
+    <list default="true" id="43a9fb6a-f5c6-44e0-a040-3471422d7d26" name="Changes" comment="16.04.2023.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/States.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/States.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/Practice10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/Practice10.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,36 +61,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostCountry">
-    <configuration name="AuthenticationGmiBank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utils.AuthenticationGmiBank" />
-      <module name="api132-133" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetCustomer.getCustomerById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api132-133" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gmibank_api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="gmibank_api" />
-      <option name="MAIN_CLASS_NAME" value="gmibank_api.GetCustomer" />
-      <option name="METHOD_NAME" value="getCustomerById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Practise12.postCountry">
     <configuration name="PostCountry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api132-133" />
       <extension name="coverage">
@@ -107,23 +77,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostCountry.postCountry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api132-133" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gmibank_api.*" />
+          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="gmibank_api" />
-      <option name="MAIN_CLASS_NAME" value="gmibank_api.PostCountry" />
-      <option name="METHOD_NAME" value="postCountry" />
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.Practice10" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice10.getHm10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api132-133" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.Practice10" />
+      <option name="METHOD_NAME" value="getHm10" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practise12.practise_12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Practise12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api132-133" />
       <extension name="coverage">
         <pattern>
@@ -133,7 +118,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="practice" />
       <option name="MAIN_CLASS_NAME" value="practice.Practise12" />
-      <option name="METHOD_NAME" value="practise_12" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practise12.postCountry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api132-133" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.Practise12" />
+      <option name="METHOD_NAME" value="postCountry" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practise12.postCountry" />
+        <item itemvalue="JUnit.Practise12" />
+        <item itemvalue="JUnit.Practice10" />
+        <item itemvalue="JUnit.Practice10.getHm10" />
         <item itemvalue="JUnit.PostCountry" />
-        <item itemvalue="JUnit.PostCountry.postCountry" />
-        <item itemvalue="JUnit.GetCustomer.getCustomerById" />
-        <item itemvalue="JUnit.Practise12.practise_12" />
-        <item itemvalue="Application.AuthenticationGmiBank" />
       </list>
     </recent_temporary>
   </component>
@@ -431,12 +431,24 @@
       <option name="project" value="LOCAL" />
       <updated>1681572088657</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="16.04.2023">
+      <created>1681598641625</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1681598641625</updated>
+    </task>
+    <task id="LOCAL-00041" summary="16.04.2023.">
+      <created>1681598654640</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1681598654640</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="04.04.2023" />
-    <MESSAGE value="05.04.2023" />
     <MESSAGE value="06.04.2023" />
     <MESSAGE value="06.04.2023.." />
     <MESSAGE value="06.04.2023..." />
@@ -460,7 +472,9 @@
     <MESSAGE value="14.04.2023.." />
     <MESSAGE value="15.04.2023" />
     <MESSAGE value="15.04.2023." />
-    <option name="LAST_COMMIT_MESSAGE" value="15.04.2023." />
+    <MESSAGE value="16.04.2023" />
+    <MESSAGE value="16.04.2023." />
+    <option name="LAST_COMMIT_MESSAGE" value="16.04.2023." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/api132_133$herokuapp_smoketest_in_api132_133.ic" NAME="herokuapp_smoketest in api132-133 Coverage Results" MODIFIED="1681305450157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
