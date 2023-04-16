@@ -99,9 +99,7 @@ public class PostCountry extends GmiBankBaseUrl {
 
        response.prettyPrint();
 
-        // Do assertion part.
-
-        // 1. Validation
+        // Do assertion
          //1st Validation:
          response.
                  then().
@@ -115,17 +113,11 @@ public class PostCountry extends GmiBankBaseUrl {
                          "states.name[2]", equalTo(expectedData.getStates().get(2).getName())
 
                  );
-
-
          // Here if we write for states id 1 states.id[1] actual data is zero so test will not pass.
 
-        // 2. Validation
-       /*  Country actualData = ObjectMapperUtils.convertJsonToJavaObject(response.asString(),Country.class);
-         System.out.println("actualData = " + actualData);
-         assertEquals(201,response.statusCode());
-         assertEquals(expectedData.getName(), actualData.getName());
 
-*/
+
+
 
 
 
