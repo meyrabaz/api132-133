@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a9fb6a-f5c6-44e0-a040-3471422d7d26" name="Changes" comment="16.04.2023.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/Practice10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/Practice10.java" afterDir="false" />
-    </list>
+    <list default="true" id="43a9fb6a-f5c6-44e0-a040-3471422d7d26" name="Changes" comment="16.04.2023.." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -445,11 +442,17 @@
       <option name="project" value="LOCAL" />
       <updated>1681598654640</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="16.04.2023..">
+      <created>1681599922255</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1681599922255</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="06.04.2023" />
     <MESSAGE value="06.04.2023.." />
     <MESSAGE value="06.04.2023..." />
     <MESSAGE value="07.04.2023" />
@@ -474,7 +477,8 @@
     <MESSAGE value="15.04.2023." />
     <MESSAGE value="16.04.2023" />
     <MESSAGE value="16.04.2023." />
-    <option name="LAST_COMMIT_MESSAGE" value="16.04.2023." />
+    <MESSAGE value="16.04.2023.." />
+    <option name="LAST_COMMIT_MESSAGE" value="16.04.2023.." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/api132_133$herokuapp_smoketest_in_api132_133.ic" NAME="herokuapp_smoketest in api132-133 Coverage Results" MODIFIED="1681305450157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

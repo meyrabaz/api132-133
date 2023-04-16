@@ -16,7 +16,7 @@ import static org.junit.Assert.assertEquals;
 public class PostCountry extends GmiBankBaseUrl {
 
     //Type an automation test that creates a "country" which includes at least 3 "states" using the document
-// https://app.swaggerhub.com/apis/yasinaniltechpro/GmiBank/0.0.1.
+   // https://app.swaggerhub.com/apis/yasinaniltechpro/GmiBank/0.0.1  (The Documentation)
 
 
    /*
@@ -77,9 +77,9 @@ public class PostCountry extends GmiBankBaseUrl {
 
          spec.pathParams("first","api","second","tp-countries");
 
-      // in states pojo we made we got ignore properties and remove "tpcountries" variable bcs there is an error 400 (bad request,it is null )
-
-       // Set the expected data.
+         // In states pojo, we made we got ignore properties and remove "tpcountries" variable bcs there is an error 400 (bad request,it is null )
+         //In countries pojo, we remove "id" variable bcs we are creating new one from the system.
+         // Set the expected data.
 
          States state1 =  new States(0, "My State");
          States state2 =  new States(1, "Your State");
