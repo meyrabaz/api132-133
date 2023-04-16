@@ -5,13 +5,12 @@ import io.restassured.response.Response;
 import org.junit.Test;
 import pojos.Country;
 import pojos.States;
-import utils.ObjectMapperUtils;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import static io.restassured.RestAssured.given;
-import static org.junit.Assert.assertEquals;
+import static org.hamcrest.CoreMatchers.equalTo;
 
 public class PostCountry extends GmiBankBaseUrl {
 
@@ -101,12 +100,38 @@ public class PostCountry extends GmiBankBaseUrl {
        response.prettyPrint();
 
         // Do assertion part.
-         Country actualData = ObjectMapperUtils.convertJsonToJavaObject(response.asString(),Country.class);
+
+        // 1. Validation
+         //1st Validation:
+         response.
+                 then().
+                 statusCode(201).
+                 body("name",equalTo(expectedData.getName()),
+                         "states.id[0]", equalTo(expectedData.getStates().get(0).getId()),
+                         "states.name[0]", equalTo(expectedData.getStates().get(0).getName()),
+                         "states.id[1]", equalTo(expectedData.getStates().get(1).getId()),
+                         "states.name[1]", equalTo(expectedData.getStates().get(1).getName()),
+                         "states.id[2]", equalTo(expectedData.getStates().get(2).getId()),
+                         "states.name[2]", equalTo(expectedData.getStates().get(2).getName())
+
+                 );
+
+
+         // Here if we write for states id 1 states.id[1] actual data is zero so test will not pass.
+
+        // 2. Validation
+       /*  Country actualData = ObjectMapperUtils.convertJsonToJavaObject(response.asString(),Country.class);
          System.out.println("actualData = " + actualData);
          assertEquals(201,response.statusCode());
          assertEquals(expectedData.getName(), actualData.getName());
 
+*/
+
+
+
+
+
+
+
      }
-
-
 }
