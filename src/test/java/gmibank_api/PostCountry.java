@@ -1,16 +1,22 @@
 package gmibank_api;
 
 import base_urls.GmiBankBaseUrl;
+import com.google.gson.Gson;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.junit.Test;
 import pojos.Country;
 import pojos.States;
+import utils.ObjectMapperUtils;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.equalTo;
+import static org.junit.Assert.assertEquals;
 
 public class PostCountry extends GmiBankBaseUrl {
 
@@ -115,14 +121,69 @@ public class PostCountry extends GmiBankBaseUrl {
                  );
          // Here if we write for states id 1 states.id[1] actual data is zero so test will not pass.
 
+//2nd Validation:
+         JsonPath jsonPath = response.jsonPath();
 
+         assertEquals(201, response.statusCode());
+         assertEquals(expectedData.getName(), jsonPath.getString("name"));
+         assertEquals(expectedData.getStates().get(0).getId(), jsonPath.getList("states.id").get(0));
+         assertEquals(expectedData.getStates().get(0).getName(), jsonPath.getList("states.name").get(0));
+         assertEquals(expectedData.getStates().get(1).getId(), jsonPath.getList("states.id").get(1));
+         assertEquals(expectedData.getStates().get(1).getName(), jsonPath.getList("states.name").get(1));
+         assertEquals(expectedData.getStates().get(2).getId(), jsonPath.getList("states.id").get(2));
+         assertEquals(expectedData.getStates().get(2).getName(), jsonPath.getList("states.name").get(2));
 
+         //3rd Validation:
+         Map<String, Object> actualDataMap = response.as(HashMap.class);
+         System.out.println("actualDataMap = " + actualDataMap);
 
+         assertEquals(expectedData.getName(), actualDataMap.get("name"));
+         assertEquals(expectedData.getStates().get(0).getId(), ((Map) ((List<Object>) actualDataMap.get("states")).get(0)).get("id"));
+         assertEquals(expectedData.getStates().get(0).getName(), ((Map) ((List<Object>) actualDataMap.get("states")).get(0)).get("name"));
+         assertEquals(expectedData.getStates().get(1).getId(), ((Map) ((List<Object>) actualDataMap.get("states")).get(1)).get("id"));
+         assertEquals(expectedData.getStates().get(1).getName(), ((Map) ((List<Object>) actualDataMap.get("states")).get(1)).get("name"));
+         assertEquals(expectedData.getStates().get(2).getId(), ((Map) ((List<Object>) actualDataMap.get("states")).get(2)).get("id"));
+         assertEquals(expectedData.getStates().get(2).getName(), ((Map) ((List<Object>) actualDataMap.get("states")).get(2)).get("name"));
 
+         //4th Validation
+         Country actualDataAsPojo = response.as(Country.class);
 
+         assertEquals(expectedData.getName(), actualDataAsPojo.getName());
+         assertEquals(expectedData.getStates().get(0).getId(),actualDataAsPojo.getStates().get(0).getId());
+         assertEquals(expectedData.getStates().get(0).getName(),actualDataAsPojo.getStates().get(0).getName());
+         assertEquals(expectedData.getStates().get(1).getId(),actualDataAsPojo.getStates().get(1).getId());
+         assertEquals(expectedData.getStates().get(1).getName(),actualDataAsPojo.getStates().get(1).getName());
+         assertEquals(expectedData.getStates().get(2).getId(),actualDataAsPojo.getStates().get(2).getId());
+         assertEquals(expectedData.getStates().get(2).getName(),actualDataAsPojo.getStates().get(2).getName());
 
+// "response.as(Country.class)=> -as method-" the method it cannot be used in codehous
+// So we have error to change fasterxml to ignore unknown in pojos we made.
 
+//5th Validation
+         Country actualDataPojo = ObjectMapperUtils.convertJsonToJavaObject(response.asString(), Country.class);
+         System.out.println("actualDataPojo = " + actualDataPojo);
+         assertEquals(expectedData.getName(), actualDataPojo.getName());
+         assertEquals(expectedData.getStates().get(0).getId(), actualDataPojo.getStates().get(0).getId());
+         assertEquals(expectedData.getStates().get(0).getName(), actualDataPojo.getStates().get(0).getName());
+         assertEquals(expectedData.getStates().get(1).getId(), actualDataPojo.getStates().get(1).getId());
+         assertEquals(expectedData.getStates().get(1).getName(), actualDataPojo.getStates().get(1).getName());
+         assertEquals(expectedData.getStates().get(2).getId(), actualDataPojo.getStates().get(2).getId());
+         assertEquals(expectedData.getStates().get(2).getName(), actualDataPojo.getStates().get(2).getName());
 
+// When we do assertion in the 5th way with object mapper: utils imported from "codehouse" and there was an error
+// So we change it too to fasterxml in utils package- in objecmapperclass-jsonignore properties.
+// Our company tell us our dependencies.
+         //6th Validation: ==> Gson
+         Country actualDataGson = new Gson().fromJson(response.asString(), Country.class);
+         System.out.println("actualDataGson = " + actualDataGson);
+
+         assertEquals(expectedData.getName(), actualDataGson.getName());
+         assertEquals(expectedData.getStates().get(0).getId(), actualDataGson.getStates().get(0).getId());
+         assertEquals(expectedData.getStates().get(0).getName(), actualDataGson.getStates().get(0).getName());
+         assertEquals(expectedData.getStates().get(1).getId(), actualDataGson.getStates().get(1).getId());
+         assertEquals(expectedData.getStates().get(1).getName(), actualDataGson.getStates().get(1).getName());
+         assertEquals(expectedData.getStates().get(2).getId(), actualDataGson.getStates().get(2).getId());
+         assertEquals(expectedData.getStates().get(2).getName(), actualDataGson.getStates().get(2).getName());
 
 
      }

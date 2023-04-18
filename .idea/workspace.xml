@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a9fb6a-f5c6-44e0-a040-3471422d7d26" name="Changes" comment="16.04.2023....">
+    <list default="true" id="43a9fb6a-f5c6-44e0-a040-3471422d7d26" name="Changes" comment="16.04.2023.....">
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/Practise13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/Practise14.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank_api/PostCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank_api/PostCountry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ObjectMapperUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ObjectMapperUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostCountry.postCountry">
+  <component name="RunManager" selected="JUnit.Practise14.practiseDel14">
     <configuration name="PostCountry.postCountry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api132-133" />
       <extension name="coverage">
@@ -89,22 +92,6 @@
       <option name="PACKAGE_NAME" value="practice" />
       <option name="MAIN_CLASS_NAME" value="practice.Practice10" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice10.getHm10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api132-133" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.Practice10" />
-      <option name="METHOD_NAME" value="getHm10" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,13 +127,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practise14.practiseDel14" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api132-133" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.Practise14" />
+      <option name="METHOD_NAME" value="practiseDel14" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practise14.practiseDel14" />
         <item itemvalue="JUnit.PostCountry.postCountry" />
         <item itemvalue="JUnit.Practise12.postCountry" />
         <item itemvalue="JUnit.Practise12" />
         <item itemvalue="JUnit.Practice10" />
-        <item itemvalue="JUnit.Practice10.getHm10" />
       </list>
     </recent_temporary>
   </component>
@@ -467,11 +470,17 @@
       <option name="project" value="LOCAL" />
       <updated>1681655206839</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="16.04.2023.....">
+      <created>1681658048691</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1681658048691</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="07.04.2023" />
     <MESSAGE value="09.04.2023" />
     <MESSAGE value="10.04.2023" />
     <MESSAGE value="10.04.2023." />
@@ -496,7 +505,8 @@
     <MESSAGE value="16.04.2023.." />
     <MESSAGE value="16.04.2023..." />
     <MESSAGE value="16.04.2023...." />
-    <option name="LAST_COMMIT_MESSAGE" value="16.04.2023...." />
+    <MESSAGE value="16.04.2023....." />
+    <option name="LAST_COMMIT_MESSAGE" value="16.04.2023....." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/api132_133$herokuapp_smoketest_in_api132_133.ic" NAME="herokuapp_smoketest in api132-133 Coverage Results" MODIFIED="1681305450157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
