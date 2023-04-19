@@ -41,24 +41,6 @@ public class Practise13 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 
 }
