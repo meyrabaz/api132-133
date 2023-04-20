@@ -32,13 +32,16 @@ public class Put03 extends DummyRestApiBaseUrl {
                 ii) Response body should be like the following
                     {
                         "status": "success",
+
                         "data": {
+
                             "employee_name": "Tom Hanks",
                             "employee_salary": 111111,
                             "employee_age": 23,
                             "profile_image": "Perfect image"
-                        },
-                        "message": "Successfully! Record has been added."
+                        }
+
+                        message": "Successfully! Record has been added."
                     }
 
      */
@@ -63,12 +66,10 @@ public class Put03 extends DummyRestApiBaseUrl {
         System.out.println("actualData = " + actualData);
 
         assertEquals(200,response.statusCode());
-
         assertEquals(expectedData.getEmployee_name(),actualData.getData().getEmployee_name());
         assertEquals(expectedData.getEmployee_salary(),actualData.getData().getEmployee_salary());
         assertEquals(expectedData.getEmployee_age(),actualData.getData().getEmployee_age());
         assertEquals(expectedData.getProfile_image(),actualData.getData().getProfile_image());
-
 
 
 

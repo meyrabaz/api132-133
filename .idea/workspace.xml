@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a9fb6a-f5c6-44e0-a040-3471422d7d26" name="Changes" comment="18.04.2023">
+    <list default="true" id="43a9fb6a-f5c6-44e0-a040-3471422d7d26" name="Changes" comment="19.04.2023.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/put_requests/Put03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/put_requests/Put03.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,69 +61,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practise14.practiseDel14">
-    <configuration name="PostCountry.postCountry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api132-133" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gmibank_api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="gmibank_api" />
-      <option name="MAIN_CLASS_NAME" value="gmibank_api.PostCountry" />
-      <option name="METHOD_NAME" value="postCountry" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api132-133" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.Practice10" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practise12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api132-133" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.Practise12" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practise12.postCountry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api132-133" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.Practise12" />
-      <option name="METHOD_NAME" value="postCountry" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Put03.put02">
     <configuration name="Practise14.practiseDel14" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api132-133" />
       <extension name="coverage">
@@ -139,13 +78,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Put021604.put02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api132-133" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="put_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="put_requests" />
+      <option name="MAIN_CLASS_NAME" value="put_requests.Put021604" />
+      <option name="METHOD_NAME" value="put02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Put03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api132-133" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="put_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="put_requests" />
+      <option name="MAIN_CLASS_NAME" value="put_requests.Put03" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Put03.put02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api132-133" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="put_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="put_requests" />
+      <option name="MAIN_CLASS_NAME" value="put_requests.Put03" />
+      <option name="METHOD_NAME" value="put02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api132-133" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="herokuapp_smoketest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="herokuapp_smoketest" />
+      <option name="MAIN_CLASS_NAME" value="herokuapp_smoketest.Runner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Put03.put02" />
+        <item itemvalue="JUnit.Runner" />
+        <item itemvalue="JUnit.Put03" />
+        <item itemvalue="JUnit.Put021604.put02" />
         <item itemvalue="JUnit.Practise14.practiseDel14" />
-        <item itemvalue="JUnit.PostCountry.postCountry" />
-        <item itemvalue="JUnit.Practise12.postCountry" />
-        <item itemvalue="JUnit.Practise12" />
-        <item itemvalue="JUnit.Practice10" />
       </list>
     </recent_temporary>
   </component>
@@ -157,13 +158,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679237053515</updated>
-    </task>
-    <task id="LOCAL-00001" summary="29.03.2023">
-      <created>1680097225778</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1680097225778</updated>
     </task>
     <task id="LOCAL-00002" summary="30.03.2023">
       <created>1680165942059</created>
@@ -480,14 +474,38 @@
       <option name="project" value="LOCAL" />
       <updated>1681815766801</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="18.04.2023.">
+      <created>1681817461191</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1681817461191</updated>
+    </task>
+    <task id="LOCAL-00048" summary="18.04.2023..">
+      <created>1681818101017</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1681818101017</updated>
+    </task>
+    <task id="LOCAL-00049" summary="19.04.2023">
+      <created>1681897771972</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1681897771972</updated>
+    </task>
+    <task id="LOCAL-00050" summary="19.04.2023.">
+      <created>1681897788648</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1681897788649</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10.04.2023" />
-    <MESSAGE value="10.04.2023." />
-    <MESSAGE value="10.04.2023.." />
-    <MESSAGE value="11.04.2023" />
     <MESSAGE value="11.04.2023." />
     <MESSAGE value="11.04.2023.." />
     <MESSAGE value="12.04.2023" />
@@ -509,7 +527,11 @@
     <MESSAGE value="16.04.2023...." />
     <MESSAGE value="16.04.2023....." />
     <MESSAGE value="18.04.2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="18.04.2023" />
+    <MESSAGE value="18.04.2023." />
+    <MESSAGE value="18.04.2023.." />
+    <MESSAGE value="19.04.2023" />
+    <MESSAGE value="19.04.2023." />
+    <option name="LAST_COMMIT_MESSAGE" value="19.04.2023." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/api132_133$herokuapp_smoketest_in_api132_133.ic" NAME="herokuapp_smoketest in api132-133 Coverage Results" MODIFIED="1681305450157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
