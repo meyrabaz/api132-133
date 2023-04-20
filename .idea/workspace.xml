@@ -61,24 +61,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Put03.put02">
-    <configuration name="Practise14.practiseDel14" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api132-133" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.Practise14" />
-      <option name="METHOD_NAME" value="practiseDel14" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Put021604.put02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Put03B.put03B">
+    <configuration name="Put03B" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api132-133" />
       <extension name="coverage">
         <pattern>
@@ -87,24 +71,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="put_requests" />
-      <option name="MAIN_CLASS_NAME" value="put_requests.Put021604" />
-      <option name="METHOD_NAME" value="put02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Put03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api132-133" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="put_requests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="put_requests" />
-      <option name="MAIN_CLASS_NAME" value="put_requests.Put03" />
+      <option name="MAIN_CLASS_NAME" value="put_requests.Put03B" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Put03B.put03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api132-133" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="put_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="put_requests" />
+      <option name="MAIN_CLASS_NAME" value="put_requests.Put03B" />
+      <option name="METHOD_NAME" value="put03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Put03B.put03B" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api132-133" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="put_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="put_requests" />
+      <option name="MAIN_CLASS_NAME" value="put_requests.Put03B" />
+      <option name="METHOD_NAME" value="put03B" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Put03B.put03B" />
+        <item itemvalue="JUnit.Put03B" />
+        <item itemvalue="JUnit.Put03B.put03" />
         <item itemvalue="JUnit.Put03.put02" />
         <item itemvalue="JUnit.Runner" />
-        <item itemvalue="JUnit.Put03" />
-        <item itemvalue="JUnit.Put021604.put02" />
-        <item itemvalue="JUnit.Practise14.practiseDel14" />
       </list>
     </recent_temporary>
   </component>
