@@ -6,9 +6,13 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 public class DummyRestApiPojo {
 
     private String employee_name;
+
     private Integer employee_salary;
+
     private Integer employee_age;
+
     private String profile_image;
+
 
     public DummyRestApiPojo() {
     }
