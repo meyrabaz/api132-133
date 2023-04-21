@@ -36,21 +36,22 @@ public class Patch01 extends JsonPlaceHolderBaseUrl {
 
         //Set the expected data
         Map<String, Object> expectedData = new JsonPlaceHolderTestData().expectedDataMapMethod(null, "Read The Books", null);
-        System.out.println("expectedData = " + expectedData);
+       // System.out.println("expectedData = " + expectedData);
 
         //Send the request and get the response
         Response response = given(spec).body(expectedData).patch("{first}/{second}");
-        response.prettyPrint();
+       // response.prettyPrint();
 
         //Do assertion
         Map<String, Object> actualData = response.as(HashMap.class);//De-Serialization
-        System.out.println("actualData = " + actualData);
+        //System.out.println("actualData = " + actualData);
 
         assertEquals(200,response.statusCode());
         assertEquals(expectedData.get("title"),actualData.get("title"));
         //If you want to assert whole body
         assertEquals(10,actualData.get("userId"));
         assertEquals(true,actualData.get("completed"));
+
 
     }
 }
