@@ -13,8 +13,6 @@ import static org.junit.Assert.assertEquals;
 
 public class Post01b extends PetStoreBaseUrl {
 
-
-
 /*
         Given
             1) https://petstore.swagger.io/v2/user
@@ -40,7 +38,11 @@ public class Post01b extends PetStoreBaseUrl {
 
     @Test
     public void post01b() {
+
+        // Set the URL
         spec.pathParam("first", "user");
+
+        // Set the expected data.
 
         Map<String, Object> expectedData = new HashMap<>();//You can create payload by using pojo class as well.
 
@@ -52,11 +54,14 @@ public class Post01b extends PetStoreBaseUrl {
         expectedData.put("phone", "1234");
         expectedData.put("userStatus", 123);
 
-
+      // Send the request and get the response.
 
 
         Response response = given().spec(spec).contentType(ContentType.JSON).body(expectedData).when().post("/{first}");
         response.prettyPrint();
+
+        // Do assertion.
+
         Map<String, Object> actualData = response.as(HashMap.class);
         assertEquals(200, response.statusCode());
         assertEquals(200, actualData.get("code"));

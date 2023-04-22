@@ -6,11 +6,17 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 public class PetStorePojo {
 
     private  String username;
+
     private  String firstname;
+
     private  String lastname;
+
     private  String email;
+
     private  String password;
+
     private  String phone;
+
     private  Integer userStatus;
 
     public PetStorePojo() {
