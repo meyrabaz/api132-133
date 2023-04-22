@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a9fb6a-f5c6-44e0-a040-3471422d7d26" name="Changes" comment="22.04.2023..">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="43a9fb6a-f5c6-44e0-a040-3471422d7d26" name="Changes" comment="22.04.2023...">
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/Practice10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/Practice10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/Practise11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/Practise11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/Practise12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/Practise12.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/Practise13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/Practise13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/Practise14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/Practise14.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,13 +160,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679237053515</updated>
-    </task>
-    <task id="LOCAL-00009" summary="02.04.2023..">
-      <created>1680438396441</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1680438396441</updated>
     </task>
     <task id="LOCAL-00010" summary="02.04.2023..">
       <created>1680438459241</created>
@@ -506,11 +497,17 @@
       <option name="project" value="LOCAL" />
       <updated>1682193136795</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="22.04.2023...">
+      <created>1682193570358</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1682193570358</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="13.04.2023" />
     <MESSAGE value="13.04.2023." />
     <MESSAGE value="14.04.2023" />
     <MESSAGE value="14.04.2023." />
@@ -535,7 +532,8 @@
     <MESSAGE value="21.04.2023." />
     <MESSAGE value="22.04.2023" />
     <MESSAGE value="22.04.2023.." />
-    <option name="LAST_COMMIT_MESSAGE" value="22.04.2023.." />
+    <MESSAGE value="22.04.2023..." />
+    <option name="LAST_COMMIT_MESSAGE" value="22.04.2023..." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/api132_133$herokuapp_smoketest_in_api132_133.ic" NAME="herokuapp_smoketest in api132-133 Coverage Results" MODIFIED="1681305450157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
