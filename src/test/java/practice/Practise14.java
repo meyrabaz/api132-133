@@ -1,16 +1,16 @@
 package practice;
 
 import base_urls.JsonPlaceHolderBaseUrl;
+import io.restassured.response.Response;
 import org.junit.Test;
-import test_data.JsonPlaceHolderTestData;
 
-import java.util.Map;
+import static io.restassured.RestAssured.given;
+import static org.junit.Assert.assertEquals;
 
 public class Practise14 extends JsonPlaceHolderBaseUrl {
 
 
-//Homework14:
-      /*
+ /*
         Given
             https://jsonplaceholder.typicode.com/todos/198
         When
@@ -20,30 +20,28 @@ public class Practise14 extends JsonPlaceHolderBaseUrl {
             And Response body is { }
      */
 
-
     @Test
+    public void practise14 (){
 
-    public void practiseDel14 (){
-
-
-
-    // Set the url
-
+        //Set the url
         spec.pathParams("first","todos","second",198);
 
+        //Set the expected data
+        String expectedData = "{}";
 
+        //Send the request get the response
+        Response response = given(spec).delete("{first}/{second}");
+        response.prettyPrint();
 
-    // Set the expected data
+        //Do assertion
+//       JsonPlaceHolderPojo actualData = response.as(JsonPlaceHolderPojo.class);
+//        System.out.println("actualData = " + actualData);
 
-
-        Map<String, Object> expectedData = new JsonPlaceHolderTestData().expectedDataMapMethod(10, "quis eius est sint explicabo", true);
-        System.out.println("expectedData = " + expectedData);
-
-
-
-
-
+        assertEquals(200,response.statusCode());
+        assertEquals(expectedData, response.asString());
 
 
     }
+
+
 }
