@@ -13,7 +13,6 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.hasSize;
 
 public class Practice06 extends RegresBaseUrl {
-
     /*
      Given
             https://reqres.in/api/unknown/

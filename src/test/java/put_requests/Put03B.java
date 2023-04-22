@@ -11,7 +11,6 @@ import java.util.Map;
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 public class Put03B extends DummyRestApiBaseUrl{
-
     /*
      Given
          1)https://dummy.restapiexample.com/api/v1/update/21
@@ -27,6 +26,7 @@ public class Put03B extends DummyRestApiBaseUrl{
           Status code is 200
      And
           Response body should be like:
+
                  {
                       "status": "success",
                       "data": {
@@ -37,6 +37,7 @@ public class Put03B extends DummyRestApiBaseUrl{
                       },
                       "message": "Successfully! Record has been added."
                   }
+
    */
     @Test
     public void put03B(){
