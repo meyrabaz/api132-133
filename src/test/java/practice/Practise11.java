@@ -18,11 +18,11 @@ public class Practise11 extends HerOkuAppBaseUrl {
         https://restful-booker.herokuapp.com/booking
     And
        {
-            "firstname" : "Jim",
-            "lastname" : "Brown",
-            "totalprice" : 111,
-            "depositpaid" : true,
-            "bookingdates" : {
+           "firstname" : "Jim",
+           "lastname" : "Brown",
+           "totalprice" : 111,
+           "depositpaid" : true,
+           "bookingdates" : {
                 "checkin" : "2018-01-01",
                 "checkout" : "2019-01-01"
             },
@@ -55,18 +55,18 @@ public class Practise11 extends HerOkuAppBaseUrl {
         //Set the url
         spec.pathParam("first", "booking");
 
-        //Set the expected data
+        //Set the expected data.
         BookingDatesPojo bookingDatesPojo = new BookingDatesPojo("2018-01-01", "2019-01-01");
         BookingPojo expectedData = new BookingPojo("Jim", "Brown", 111, true, bookingDatesPojo, "Breakfast");
         System.out.println("expectedData = " + expectedData);
 
-        //Send the request and get the response
+        //Send the request and get the response.
         Response response = given(spec).body(expectedData).post("{first}");
         response.prettyPrint();
 
-        //Do assertion
+        //Do assertion.
         BookingResponsePojo actualData = ObjectMapperUtils.convertJsonToJavaObject(response.asString(), BookingResponsePojo.class);
-        //With convertJsonToJavaObject() method we handled throw exception issue
+        //With convertJsonToJavaObject() method we handled throw exception issue.
         System.out.println("actualData = " + actualData);
 
         assertEquals(200, response.statusCode());

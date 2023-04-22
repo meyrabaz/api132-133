@@ -1,6 +1,13 @@
 package practice;
 
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
 import org.junit.Test;
+
+import java.util.List;
+
+import static io.restassured.RestAssured.given;
+import static org.junit.Assert.assertEquals;
 
 public class Practice10 {
 
@@ -20,23 +27,22 @@ public class Practice10 {
         // Set the URL
         //spec.pathParam("1st","productsList");
 
-        String url = "https://automationexercise.com/api/productList";
+       String url = "https://automationexercise.com/api/productList";
 
-        // Send the GET request and get the response
 
-       /*  Response response = given().jsonPath().get(url);
+        Response response = given().contentType(ContentType.JSON).get(url);
        // response.prettyPrint();
 
         //  Do assertion
 
-       // List<String> ListOfWomen = response.jsonPath().getList("products.category.usertype.findAll{it.usertype=='Women'}.usertype");
-       // System.out.println("ListOfWomen = " + ListOfWomen);
+        List<String> ListOfWomen = response.jsonPath().getList("products.category.usertype.findAll{it.usertype=='Women'}.usertype");
+        System.out.println("ListOfWomen = " + ListOfWomen);
 
         int numOfWomen = response.jsonPath().getList("products.category.usertype.findAll{it.usertype=='Women'}.usertype").size();
-        System.out.println("numOfWomen = " + numOfWomen);
+        System.out.println("numOfWomen = " + numOfWomen) ;
 
-        assertEquals(200,response.statusCode());
-        assertEquals(12,numOfWomen);*/
+        assertEquals(200,response.statusCode()) ;
+        assertEquals(12,numOfWomen) ;
     }
 
 }
