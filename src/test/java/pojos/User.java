@@ -112,5 +112,6 @@ public class User {
                 ", imageUrl=" + imageUrl +
                 ", resetDate=" + resetDate +
                 '}';
+
     }
 }
