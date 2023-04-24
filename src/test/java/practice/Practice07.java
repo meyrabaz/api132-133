@@ -15,6 +15,7 @@ import static io.restassured.RestAssured.given;
 public class Practice07 extends RegresBaseUrl {
 
 
+
     /*
         Given
             1) https://reqres.in/api/users

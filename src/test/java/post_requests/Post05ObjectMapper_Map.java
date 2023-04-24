@@ -41,7 +41,7 @@ public class Post05ObjectMapper_Map extends JsonPlaceHolderBaseUrl {
 
       spec.pathParam("first","todos");
 
-      // Set the expected data
+      // Set the expected data.
 // Set the expected Data with using POJO class (this is the best way)
 
       Map<String,Object> expectedData = new JsonPlaceHolderTestData().expectedDataMapMethod(55,"Tidy your room", false);
@@ -49,13 +49,16 @@ public class Post05ObjectMapper_Map extends JsonPlaceHolderBaseUrl {
       System.out.println("expectedData = " + expectedData);
 
 
-      // //Send the request and get the response
+      // //Send the request and get the response.
 
 
       Response response = given(spec).body("{ \"userId\": 55,\"title\": \"Tidy your room\",\"completed\": false }").post("{first}");
       response.prettyPrint();
+
+
       // Not the recommended way. We will do common way object mapper.
-      //Do assertion
+
+      //Do assertion.
 
     Map<String,Object> actualData = new ObjectMapper().readValue(response.asString(), HashMap.class);
     System.out.println("actualData = " + actualData);

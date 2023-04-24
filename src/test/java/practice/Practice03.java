@@ -10,6 +10,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 
 public class Practice03 extends RegresBaseUrl {
 
+
     /*
       Given
           https://reqres.in/api/users/2
