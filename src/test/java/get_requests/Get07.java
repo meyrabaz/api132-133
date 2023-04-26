@@ -11,15 +11,15 @@ import base_urls.PetStoreBaseUrl;
 
 public class Get07 extends PetStoreBaseUrl {
     /*
- Given
+ Given..
      https://petstore.swagger.io/v2/pet/3467889
- When
+ When..
       User send a GET request to the URL
- Then
+ Then..
      HTTP Status Code should be 200
- And
+ And..
      Response content type is "application/json"
- And
+ And..
      Response body should be like;
       {
          "id": 6546754768,

@@ -6,11 +6,11 @@ import org.junit.Test;
 public class Get11 extends HerOkuAppBaseUrl {
 
     /*
-    Given
+    Given...
         https://restful-booker.herokuapp.com/booking/9525
-    When
+    When...
         I send GET Request to the url
-    Then
+    Then...
         Response body should be like that;
         {
             "firstname": "Jane",
@@ -22,8 +22,10 @@ public class Get11 extends HerOkuAppBaseUrl {
                 "checkout": "2019-01-01"
             },
             "additionalneeds": "Extra pillows please"
+
         }
  */
+
 
     @Test
     public void get11 (){
