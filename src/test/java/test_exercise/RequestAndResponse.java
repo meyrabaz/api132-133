@@ -6,7 +6,6 @@ import static io.restassured.RestAssured.given;
 
 public class RequestAndResponse {
 
-
   /*
     1) Postman is used for manual API testing.
     2) We use RestAssured library for API Automation Testing.
@@ -41,7 +40,6 @@ public class RequestAndResponse {
 
     public static void main(String[] args) {
 
-
         String url = "https://restful-booker.herokuapp.com/booking/10";
 
         Response response = given().when().get(url);
@@ -74,13 +72,7 @@ public class RequestAndResponse {
 
 
 
-
-
-
-
-
     }
-
 
 
 }

@@ -23,9 +23,7 @@ public class Api_DeSerialization extends JsonPlaceHolderBaseUrl {
           spec.pathParams("pp1",70);
 
 
-
           //Map oluşturduk, testDataDepota koyabiliriz, burda tekrarlı olmasın diye.
-
       /*
         Map<String,Object> requestBodyMap = new HashMap<>();
 
@@ -33,9 +31,7 @@ public class Api_DeSerialization extends JsonPlaceHolderBaseUrl {
         requestBodyMap.put("body","Merhaba");
         requestBodyMap.put("userId",10);
         requestBodyMap.put("id",70);
-
-        */
-
+ */
         //Aşağıda TestDataClassından Obje oluşturuyoruz çünkü extend edemiyoruz.
         // Daha sonra Map oluşturup metodu çağırıyoruz.
 
@@ -61,13 +57,9 @@ public class Api_DeSerialization extends JsonPlaceHolderBaseUrl {
 
         response.prettyPrint();
 
-        // Assertion
+        // Do Assertion...
 
         Map<String,Object> respBodyMap = response.as(HashMap.class);
-
-
-
-
        assertEquals(expectedDataMap.get("title"),respBodyMap.get("title"));
        assertEquals(expectedDataMap.get("body"),respBodyMap.get("body"));
        assertEquals(expectedDataMap.get("userId"),respBodyMap.get("userId"));

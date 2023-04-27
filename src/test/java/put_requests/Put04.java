@@ -25,18 +25,22 @@ public class Put04 extends JsonPlaceHolderBaseUrl {
     @Test
     public void put04(){
 
-        //Set the url
+        //Set the url..
         spec.pathParams("first","todos","second",198);
 
-        //Set the expected data
+        //Set the expected data..
         String expectedData = "{}";
 
-        //Send the request get the response
+        //Send the request get the response..
+
         Response response = given(spec).delete("{first}/{second}");
+
          //  response.prettyPrint();
 
-         //Do assertion
+         //Do assertion..
+
          JsonPlaceHolderPojo actualData = response.as(JsonPlaceHolderPojo.class);
+
          //   System.out.println("actualData = " + actualData);
 
         assertEquals(200,response.statusCode());

@@ -1,6 +1,4 @@
 package put_requests;
-
-
 import base_urls.DummyRestApiBaseUrl;
 import io.restassured.response.Response;
 import org.junit.Test;
@@ -41,15 +39,25 @@ public class Put03B extends DummyRestApiBaseUrl{
    */
     @Test
     public void put03B(){
-        //Set the URL
+
+
+        //Set the URL...
         spec.pathParams("first","api","second","v1","third","update","fourth",21);
-        //Set the expected data
+
+
+        //Set the expected data...
+
         Map<String,Object> expectedData = new DummyRestApiTestData().expectedDataMethod("Tom Hanks",111111,23,"Perfect image");
         System.out.println("expectedData = " + expectedData);
-        //Send the request and get the response
+
+
+        //Send the request and get the response...
         Response response = given(spec).body(expectedData).put("{first}/{second}/{third}/{fourth}");
         response.prettyPrint();
-        //Do Assertion
+
+
+        //Do Assertion...
+
         HashMap actualData = ObjectMapperUtils.convertJsonToJavaObject(response.asString(), HashMap.class);
         System.out.println("actualData = " + actualData);
         assertEquals(200,response.statusCode());
