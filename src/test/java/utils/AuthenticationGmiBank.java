@@ -21,7 +21,9 @@ public class AuthenticationGmiBank {
         return response.jsonPath().getString("id_token");
     }
 
-}  // it will return Token but i just want to value of token
+}
+
+       // It will return Token but i just want to value of token.
        /* {
             "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYXJrX3R3YWluIiwiYXV0aCI6IlJPTEVfQURNSU4sUk9MRV9NQU5BR0VSIiwiZXhwIjoxNjgzOTkwNTE0fQ.6y_N938LP9xh6rJlD2JCEXsNuk4jp6QBWXHTuI9p2tIMMGBNJzZ_bQenaNcEq2fYVgwnBkd1o6WQDjiV0zVb-w"
         }     not like this > just value

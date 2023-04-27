@@ -21,6 +21,7 @@ public class PetStoreTestData {
     }
 }
 
+
 /*
 {
                   "username": "JohnDoe",
@@ -32,3 +33,4 @@ public class PetStoreTestData {
                   "userStatus": 123
                 }
  */
+
