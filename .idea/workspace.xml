@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a9fb6a-f5c6-44e0-a040-3471422d7d26" name="Changes" comment="26.04.2023" />
+    <list default="true" id="43a9fb6a-f5c6-44e0-a040-3471422d7d26" name="Changes" comment="27.04.2023.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +60,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice10.getHm10">
+  <component name="RunManager" selected="JUnit.Runner">
     <configuration name="Practice10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api132-133" />
       <extension name="coverage">
@@ -85,22 +87,6 @@
       <option name="PACKAGE_NAME" value="practice" />
       <option name="MAIN_CLASS_NAME" value="practice.Practice10" />
       <option name="METHOD_NAME" value="getHm10" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practise14.practise14" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api132-133" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.Practise14" />
-      <option name="METHOD_NAME" value="practise14" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,13 +123,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api132-133" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="herokuapp_smoketest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="herokuapp_smoketest" />
+      <option name="MAIN_CLASS_NAME" value="herokuapp_smoketest.Runner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Runner" />
         <item itemvalue="JUnit.Practice10.getHm10" />
         <item itemvalue="JUnit.Practice10" />
         <item itemvalue="JUnit.Put03" />
         <item itemvalue="JUnit.Put04.put04" />
-        <item itemvalue="JUnit.Practise14.practise14" />
       </list>
     </recent_temporary>
   </component>
@@ -155,20 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679237053515</updated>
-    </task>
-    <task id="LOCAL-00016" summary="05.04.2023">
-      <created>1680708328876</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1680708328876</updated>
-    </task>
-    <task id="LOCAL-00017" summary="06.04.2023">
-      <created>1680774029044</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1680774029044</updated>
     </task>
     <task id="LOCAL-00018" summary="06.04.2023..">
       <created>1680795075889</created>
@@ -499,12 +486,24 @@
       <option name="project" value="LOCAL" />
       <updated>1682527917097</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="27.04.2023">
+      <created>1682597486273</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1682597486273</updated>
+    </task>
+    <task id="LOCAL-00066" summary="27.04.2023.">
+      <created>1682597601395</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1682597601395</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="16.04.2023" />
-    <MESSAGE value="16.04.2023." />
     <MESSAGE value="16.04.2023.." />
     <MESSAGE value="16.04.2023..." />
     <MESSAGE value="16.04.2023...." />
@@ -528,7 +527,9 @@
     <MESSAGE value="23.04.2023." />
     <MESSAGE value="24.04.2023" />
     <MESSAGE value="26.04.2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="26.04.2023" />
+    <MESSAGE value="27.04.2023" />
+    <MESSAGE value="27.04.2023." />
+    <option name="LAST_COMMIT_MESSAGE" value="27.04.2023." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/api132_133$herokuapp_smoketest_in_api132_133.ic" NAME="herokuapp_smoketest in api132-133 Coverage Results" MODIFIED="1681305450157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
